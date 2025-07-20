@@ -1,4 +1,8 @@
-*.beam
-*.ez
-/build
-erl_crash.dump
+# Ignore backup and temp files
+*.bak
+*.tmp
+*.log
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
